@@ -9,6 +9,12 @@ a {
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+header, section.banner, div.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
 /*main {
     margin: 0 15vw 0 15vw ;
 }
@@ -75,7 +81,7 @@ main section.products {
     text-align: center;
     background: linear-gradient(#CBE4DE, #a6bdb8);
     padding: 2vw 10vw 2vw 10vw;
-    margin: 6vw 0 0 0;
+    margin: 6vw 0;
 }
 main section.products h2 {
     font-size: 2.4rem;
@@ -159,8 +165,12 @@ main section.build div.dividir div p {
 footer {
     background-color: #CBE4DE;
     padding: 2vw 10vw 2vw 10vw;
+}
+footer div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 footer h1 {
     font-size: 1.8rem;
@@ -170,7 +180,7 @@ footer p {
     color: #888888;
     font-size: 1.3rem;
 }
-footer ul {
+footer div ul {
     display: flex;
 }
 footer ul li {
